@@ -59,12 +59,12 @@ Away from Salesforce I write watch apps and games in C for Pebble. I started in 
 **Dicey Depths** is my latest game: a dice roguelike inspired by Terry Cavanagh's *Dicey Dungeons*. You're a walking six-sided die on a game show. Every turn you roll your dice face up, *then* decide how to spend them across four equipment cards. A bad roll becomes a puzzle rather than a punishment. There are 3-floor runs, permadeath, a 5-ruleset campaign with a boss each, and an endless mode with a local top 10.
 
 <p align="center">
-  <img src="assets/dicey/splash.png" width="150" alt="Dicey, the walking die, holding a sword" />
-  <img src="assets/dicey/combat.png" width="150" alt="Combat: four equipment cards and two dice" />
-  <img src="assets/dicey/floor.png" width="150" alt="Choosing the next fight on a floor" />
-  <img src="assets/dicey/enemy-wasp.png" width="150" alt="Fighting a wasp" />
-  <img src="assets/dicey/robot-cpu.png" width="150" alt="The Robot class pushing its luck" />
-  <img src="assets/dicey/round-combat.png" width="150" alt="Combat on the round Pebble" />
+  <img src="assets/dicey/splash.png" width="128" alt="Dicey, the walking die, holding a sword" />
+  <img src="assets/dicey/combat.png" width="128" alt="Combat: four equipment cards and two dice" />
+  <img src="assets/dicey/floor.png" width="128" alt="Choosing the next fight on a floor" />
+  <img src="assets/dicey/enemy-wasp.png" width="128" alt="Fighting a wasp" />
+  <img src="assets/dicey/robot-cpu.png" width="128" alt="The Robot class pushing its luck" />
+  <img src="assets/dicey/round-combat.png" width="128" alt="Combat on the round Pebble" />
 </p>
 
 **Also on my wrist:**
