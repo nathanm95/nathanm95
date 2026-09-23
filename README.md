@@ -75,10 +75,3 @@ const profile = {
 | Systems Development Manager | Harbour Rock Capital | 2023 – 2025 |
 | Software Architect | Harbour Rock Capital | 2019 – 2022 |
 | Systems Support Executive | Harbour Rock Capital | 2017 – 2019 |
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=nathanm95&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nathanm95&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
-</p>
