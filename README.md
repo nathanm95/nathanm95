@@ -10,7 +10,7 @@
 
 I take organisations from spreadsheets and disconnected systems to purpose-built Salesforce platforms. I work across the whole job: the architecture and the roadmap, the hands-on Apex, LWC and Flow, and the board-level conversation about what the platform can actually do.
 
-Right now I'm the **Salesforce Administrator at The Royal Institution**. I'm also a founding team member and **Solutions Architect at Apex Infinity Solutions**, a Salesforce partner.
+Right now I'm the **Salesforce Administrator at The Royal Institution**. Previously a founding team member and **Solutions Architect at Apex Infinity Solutions**, a Salesforce partner.
 
 <img src="assets/stats.svg" width="100%" alt="9 years on Salesforce, 10+ orgs worked on, 100+ projects shipped, 1,400+ properties on one org" />
 
