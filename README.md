@@ -67,14 +67,27 @@ Away from Salesforce I write watch apps and games in C for Pebble. I started in 
   <img src="assets/dicey/round-combat.png" width="128" alt="Combat on the round Pebble" />
 </p>
 
-**Also on my wrist:**
+**Also on my wrist** (all on the Rebble store; click a banner):
 
-| | |
-|---|---|
-| 🎯 **Pegble** | A Peggle-style pachinko game with levels and an endless mode |
-| 🪐 **Orbital Face** | A watchface orrery. Shake your wrist and the planets fall loose under Kepler physics |
-| 🙂 **Orbi Face** | An expressive robot face that blinks, winks and glances around |
-| 🎡 **Roulette** | A European wheel watchface. Shake to spin |
-| 🎾 **Pebble Tennis Tour** | A tennis RPG where you climb a five-tier tour ladder |
+<p align="center">
+  <a href="https://apps.repebble.com/peggle_275f646efb0746409f30b20d"><img src="assets/showcase/peggle.gif" width="49%" alt="Peggle: pachinko on a Pebble Time 2 and Round 2" /></a>
+  <a href="https://apps.repebble.com/orbital_ca95ffb257bb4ae484d2de7f"><img src="assets/showcase/orbital.gif" width="49%" alt="Orbital: the planets knocked loose by a shake, gliding back to their real positions" /></a>
+</p>
+<p align="center">
+  <a href="https://apps.repebble.com/orbi_af0517c065c24fd7b83e9677"><img src="assets/showcase/orbi.gif" width="49%" alt="Orbi: a glossy orb pulling faces, in shades and with heart eyes" /></a>
+  <a href="https://apps.repebble.com/lava-lamp_21794a91d4da4b669c2c3239"><img src="assets/showcase/lava-lamp.gif" width="49%" alt="Lava Lamp: lava blobs pouring themselves into the time" /></a>
+</p>
+<p align="center">
+  <a href="https://apps.repebble.com/snow_bb08f60115414d268f62841a"><img src="assets/showcase/snow.gif" width="49%" alt="Snow: snow falling and piling up on the digits" /></a>
+  <a href="https://apps.repebble.com/roulette_b89bf994105f420b9c2a611f"><img src="assets/showcase/roulette.gif" width="49%" alt="Roulette: a shake sends the ball round a European wheel on a Pebble Round 2" /></a>
+</p>
+
+- 🎯 **[Peggle](https://apps.repebble.com/peggle_275f646efb0746409f30b20d)** fires balls through a board of pegs: six levels, an Endless mode and five power-peg abilities.
+- 🪐 **[Orbital](https://apps.repebble.com/orbital_ca95ffb257bb4ae484d2de7f)** shows the eight planets where they really are today, worked out on the watch. Shake it and they fall loose under real gravity, then glide home.
+- 🙂 **[Orbi](https://apps.repebble.com/orbi_af0517c065c24fd7b83e9677)** is a little orb with big feelings. He knows the weather, puts on hats and throws a party on the hour.
+- 🌋 **[Lava Lamp](https://apps.repebble.com/lava-lamp_21794a91d4da4b669c2c3239)** fills the screen with drifting molten blobs that pour themselves into the time when you glance at it.
+- ❄️ **[Snow](https://apps.repebble.com/snow_bb08f60115414d268f62841a)** is a snow globe that piles up on the digits as you tilt your wrist: my port of Leo Vandriel's 2013 face.
+- 🎡 **[Roulette](https://apps.repebble.com/roulette_b89bf994105f420b9c2a611f)** is a European wheel watchface. Shake to spin, and the winning number comes up above the clock.
+- 🎾 **Pebble Tennis Tour** is a tennis RPG where you climb a five-tier tour ladder.
 
 <img src="assets/footer.svg" width="100%" alt="Let's build something that sticks." />
