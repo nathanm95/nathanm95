@@ -69,12 +69,24 @@ Away from Salesforce I write watch apps and games in C for Pebble. I started in 
 
 **Also on my wrist:**
 
-| | |
-|---|---|
-| 🎯 **Pegble** | A Peggle-style pachinko game with levels and an endless mode |
-| 🪐 **Orbital Face** | A watchface orrery. Shake your wrist and the planets fall loose under Kepler physics |
-| 🙂 **Orbi Face** | An expressive robot face that blinks, winks and glances around |
-| 🎡 **Roulette** | A European wheel watchface. Shake to spin |
-| 🎾 **Pebble Tennis Tour** | A tennis RPG where you climb a five-tier tour ladder |
+<p align="center">
+  <a href="https://apps.repebble.com/peggle_275f646efb0746409f30b20d"><img src="assets/showcase/pegble.gif" width="49%" alt="Pegble: Peggle-style pachinko, running on a Pebble Time 2 and Round 2" /></a>
+  <img src="assets/showcase/orbital.gif" width="49%" alt="Orbital: the planets knocked loose by a shake, gliding back to their real positions" />
+</p>
+<p align="center">
+  <img src="assets/showcase/orbi.gif" width="49%" alt="Orbi: a glossy orb pulling faces, in shades and with heart eyes" />
+  <img src="assets/showcase/lava-lamp-digits.gif" width="49%" alt="Lava Lamp Digits: lava blobs pouring themselves into the time" />
+</p>
+<p align="center">
+  <img src="assets/showcase/snow.gif" width="49%" alt="Snow: snow falling and piling up on the digits" />
+</p>
+
+- 🎯 **Pegble** fires balls through a board of pegs: six levels, an Endless mode and five power-peg abilities. [On the Rebble store](https://apps.repebble.com/peggle_275f646efb0746409f30b20d).
+- 🪐 **Orbital** shows the eight planets where they really are today, worked out on the watch. Shake it and they fall loose under real gravity, then glide home.
+- 🙂 **Orbi** is a little orb with big feelings. He knows the weather, puts on hats and throws a party on the hour.
+- 🌋 **Lava Lamp Digits** drifts like a lava lamp until you glance at it, then pours itself into the time.
+- ❄️ **Snow** is a snow globe that piles up on the digits as you tilt your wrist: my port of Leo Vandriel's 2013 face.
+- 🎡 **Roulette** is a European wheel watchface. Shake to spin.
+- 🎾 **Pebble Tennis Tour** is a tennis RPG where you climb a five-tier tour ladder.
 
 <img src="assets/footer.svg" width="100%" alt="Let's build something that sticks." />

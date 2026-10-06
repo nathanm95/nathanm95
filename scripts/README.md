@@ -16,3 +16,7 @@ python3 scripts/gen_svgs.py   # rebuilds everything in assets/
 | `assets/footer.svg` | Sign-off with moving waves |
 
 The Pebble panel embeds screenshots from `~/Projects/pebble`, so regenerate it after taking new ones.
+
+The animated app banners in `assets/showcase/` are not built here. They are the `*_720.gif`
+files from `~/Projects/pebble/showcase/build_showcase.py`, which puts each app's store
+preview GIFs into its store banner.
