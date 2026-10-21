@@ -12,7 +12,15 @@ python3 scripts/gen_svgs.py   # rebuilds everything in assets/
 | `assets/header.svg` | Name reveal, rotating tagline, legacy data flowing into one org |
 | `assets/stats.svg` | Count-up stat cards with filling rings |
 | `assets/timeline.svg` | Career timeline that draws itself |
-| `assets/pebble.svg` | Pebble Time 2 and Round 2 cycling through game screenshots |
+| `assets/pebble.svg` | Pebble Time 2 cycling through Dicey Depths, Round 2 through the other apps |
 | `assets/footer.svg` | Sign-off with moving waves |
 
-The Pebble panel embeds screenshots from `~/Projects/pebble`, so regenerate it after taking new ones.
+The Pebble panel embeds the apps' store stills from `~/Projects/pebble` (Dicey Depths'
+`store/screenshots/`, the rest from each app's `store/`), so regenerate it after a new store set.
+
+The animated app cards in `assets/showcase/` are not built here. They are the `*_720.gif`
+files from `~/Projects/pebble/showcase/build_showcase.py`, which puts each app's store
+preview GIFs into its store banner and re-encodes the result with ffmpeg so it stays small.
+Copy them in without the `_720` suffix. Black Parade doesn't animate, so its card is its store
+`banner_720x320.png`, copied as `black-parade.png`. The stills under `assets/dicey/` are copies
+of Dicey Depths' `store/screenshots/emery/` PNGs.

@@ -252,10 +252,14 @@ def cycler(shots, x, y, w, h, per=2.6, clip=None, begin=0.6):
 
 def pebble():
     W, H = 1000, 400
-    dd = f"{PEB}/dicey-depths/docs/screenshots"
-    rect_shots = [f"{dd}/{s}.png" for s in ("splash", "combat", "floor", "enemy-wasp", "class-select", "robot-cpu")]
-    round_shots = [f"{dd}/round-combat.png", f"{PEB}/orbi-face/screenshots/orbi-face.png",
-                   f"{PEB}/roulette/screenshots/gabbro.png", f"{PEB}/orbital-face/screenshots/chalk.png"]
+    # Dicey Depths 1.2's store stills (the painted menus), then the Round 2
+    # cycles through the other apps' store stills.
+    dd = f"{PEB}/dicey-depths/store/screenshots"
+    rect_shots = [f"{dd}/emery/{s}.png" for s in ("2-splash", "3-title", "4-campaign", "5-class",
+                                                  "6-floor", "7-combat", "8-winner")]
+    round_shots = [f"{dd}/gabbro/7-combat.png"] + [f"{PEB}/{p}/store/gabbro_{s}.png" for p, s in (
+        ("peggle", "3_fever"), ("zuma", "2_play"), ("slither", "3_big"), ("desk-cat", "3_knock"),
+        ("orbital-face", "3_fling"), ("orbi-face", "3_love"))]
     # Pebble Time 2 body
     tx, ty, sw, sh = 110, 86, 200, 228
     time2 = f'''<g>
