@@ -46,13 +46,53 @@ A housing partner in Kent providing accommodation for 25+ local authorities acro
 
 ➡️ [Read the full case study](https://nathanm95.github.io/#project)
 
+### 🌊 Flood Control and Flood Backups
+
+Two native Salesforce apps I designed and built end to end in Apex and LWC. Both run in a live org every day.
+
+**Flood Control** finds and merges duplicate records on any standard or custom object.
+
+- 🔍 **Background scans:** fuzzy matching with synonyms and date distance, batched to stay inside governor limits
+- 👪 **Relatives aren't duplicates:** a decisive-fields rule stops two family members at one address scoring as one person
+- 🧩 **Groups, not pairs:** look-alikes are grouped and drawn as a web or a chain, so you can see why they matched
+- 👑 **Explains the survivor:** master rules pick the record that stays, and every field shows what the merged record will keep
+- ↩️ **Undo:** a merge can be reversed from the recycle bin, or rebuilt from a snapshot once it's past it
+- 📊 **Dashboard:** charts hand-drawn in SVG, so there's no third-party library to clear at security review
+
+<p align="center">
+  <img src="assets/flood/flood-control-merge.jpg" width="100%" alt="Flood Control's merge review: two test records side by side, why one was chosen to survive, and what the merged record keeps" />
+</p>
+<p align="center">
+  <img src="assets/flood/flood-control-home.jpg" width="49%" alt="Flood Control's home page: a wave banner, review counts, a scan launcher and recent scans" />
+  <img src="assets/flood/flood-control-dashboard.jpg" width="49%" alt="Flood Control's dashboard: count tiles, a line chart of recent scans and two donut charts" />
+</p>
+
+**Flood Backups** archives old records to Amazon S3 and then deletes them, so an org stays under its storage limit without losing its history.
+
+- 📜 **Policies:** any object, filtered by age or a WHERE clause, on a schedule with a cap per run
+- ✅ **Checked before it deletes:** nothing is deleted until a fresh S3 check confirms the copy is there
+- 🔎 **Still in view:** archived records show on the page of the record they belonged to, and can be restored
+- 🔐 **No keys in code:** Salesforce signs the S3 calls itself, with AWS Signature v4 through a Named Credential
+- 🔁 **Looks after itself:** nightly auto-retry, a weekly digest email, a kill switch and a dry-run mode
+- 📦 **Ships as an unlocked package**
+
+<p align="center">
+  <img src="assets/flood/flood-backups-policy.jpg" width="100%" alt="A Flood Backups policy: the object, filter, fan-out lookups, mode, schedule and the S3 calls per batch" />
+</p>
+<p align="center">
+  <img src="assets/flood/flood-backups-dashboard.jpg" width="49%" alt="Flood Backups' dashboard: storage bars, records archived and deleted, estimated S3 cost and recent runs" />
+  <img src="assets/flood/flood-backups-viewer.jpg" width="49%" alt="Archived records listed on a test contact's page, read back from S3" />
+</p>
+
+<sub>Screenshots are from a sandbox. Real names are blurred, and the merge example uses test records.</sub>
+
 <img src="assets/timeline.svg" width="100%" alt="Career timeline: Magna International 2012, University of Greenwich 2015, Harbour Rock Capital 2017 to 2025, Apex Infinity Solutions 2023, The Royal Institution 2026" />
 
 ---
 
 ### 🎲 Fun stuff: Pebble development, 2014 → 2026
 
-Away from Salesforce I write watch apps and games in C for Pebble. I started in 2014 on the original watches and CloudPebble, and I'm still at it on the new Pebble Time 2 and Round 2. I have 15 apps and watchfaces live on the Rebble appstore.
+Away from Salesforce I write watch apps and games in C for Pebble. I started in 2014 on the original watches and CloudPebble, and I'm still at it on the new Pebble Time 2 and Round 2. I have 19 apps and watchfaces live on the Rebble appstore.
 
 <img src="assets/pebble.svg" width="100%" alt="Dicey Depths on a Pebble Time 2, with a Pebble Round 2 cycling through my other apps" />
 
@@ -76,6 +116,14 @@ Away from Salesforce I write watch apps and games in C for Pebble. I started in 
 <p align="center">
   <a href="https://apps.repebble.com/slither_34ddd0970bd04608bbd6682f"><img src="assets/showcase/slither.gif" width="49%" alt="Slither: a rainbow snake growing in a glowing hexagon arena" /></a>
   <a href="https://apps.repebble.com/dicey-depths_63d47f8fc443434eb3970e6f"><img src="assets/showcase/dicey-depths.gif" width="49%" alt="Dicey Depths: Dicey on the game-show stage, with the watches playing through the menus into a fight" /></a>
+</p>
+<p align="center">
+  <a href="https://apps.repebble.com/coin-pusher_67c21c392aeb4a53b3cd7d9b"><img src="assets/showcase/coin-pusher.gif" width="49%" alt="Coin Pusher: coins dropping onto an arcade pusher tray under an LED clock" /></a>
+  <a href="https://apps.repebble.com/slot-machine_6c263719388446b98d2c3da6"><img src="assets/showcase/slot-machine.gif" width="49%" alt="Slot Machine: fruit-machine reels spinning, then landing on the time" /></a>
+</p>
+<p align="center">
+  <a href="https://apps.repebble.com/skeleton-watch_c0a92aed06b74f118e6e9885"><img src="assets/showcase/skeleton-watch.gif" width="49%" alt="Skeleton Watch: gold and steel gear trains ticking behind the hands on two round watches" /></a>
+  <a href="https://apps.repebble.com/nasa-picture-of-the-day_0264b1590fd048439e947c1e"><img src="assets/showcase/nasa-potd.gif" width="49%" alt="NASA Picture of the Day: a space photo behind a big clock on a Round 2 and a Time 2" /></a>
 </p>
 <p align="center">
   <a href="https://apps.repebble.com/orbital_ca95ffb257bb4ae484d2de7f"><img src="assets/showcase/orbital.gif" width="49%" alt="Orbital: the planets knocked loose by a shake, gliding back to their real positions" /></a>
@@ -108,6 +156,10 @@ Away from Salesforce I write watch apps and games in C for Pebble. I started in 
 
 **Watchfaces**
 
+- 🪙 **[Coin Pusher](https://apps.repebble.com/coin-pusher_67c21c392aeb4a53b3cd7d9b)** is a seaside-arcade coin pusher, and the LED sign tells the time. Shake to drop coins and nudge the prize over the edge. The tray has real physics: coins only move when something pushes them.
+- 🎰 **[Slot Machine](https://apps.repebble.com/slot-machine_6c263719388446b98d2c3da6)** is a fruit machine whose four reels show the time. Shake to spin for cherries, bells and the 7777 jackpot, across ten painted cabinets.
+- ⚙️ **[Skeleton Watch](https://apps.repebble.com/skeleton-watch_c0a92aed06b74f118e6e9885)** lets you see through the dial into a mechanical movement. Flick your wrist and the balance swings, the escape wheel jumps and the whole gear train ticks behind the hands.
+- 🔭 **[NASA Picture of the Day](https://apps.repebble.com/nasa-picture-of-the-day_0264b1590fd048439e947c1e)** puts NASA's newest Image of the Day behind the time, dithered down to the watch's colours so it still looks like a photo. It's unofficial.
 - 🪐 **[Orbital](https://apps.repebble.com/orbital_ca95ffb257bb4ae484d2de7f)** shows the eight planets where they really are today, worked out on the watch. Shake it and they fall loose under real gravity, then glide home.
 - 🐱 **[Desk Cat](https://apps.repebble.com/desk-cat_fd38ddf3974e433a8a1fdec4)** has a cat that knocks the old minute off the desk, every minute. It naps after lunch and gets the zoomies at 3am.
 - 🌋 **[Lava Lamp](https://apps.repebble.com/lava-lamp_21794a91d4da4b669c2c3239)** fills the screen with drifting molten blobs that pour themselves into the time when you glance at it.
@@ -118,5 +170,15 @@ Away from Salesforce I write watch apps and games in C for Pebble. I started in 
 - 🎡 **[Roulette](https://apps.repebble.com/roulette_b89bf994105f420b9c2a611f)** is a European wheel watchface. Shake to spin, and the winning number comes up above the clock.
 - 🏃 **[Facilitate Fitness 2](https://apps.repebble.com/facilitate-fitness-2_41efeb5b0334485fa47a23e5)** is my 2017 step face, rebuilt from scratch. It shows steps against your goal on a ring, plus heart rate, calories, distance and sleep.
 - 💀 **[Black Parade](https://apps.repebble.com/black-parade_73b4a8245cb742ff8c15e860)** is a tribute to My Chemical Romance's *The Black Parade*. It puts the marching skeleton behind a big, clear clock, on every Pebble.
+
+---
+
+### 🐍 GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nathanm95/nathanm95/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nathanm95/nathanm95/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/nathanm95/nathanm95/output/github-snake.svg" width="100%" alt="A snake eating its way through my GitHub contribution graph" />
+</picture>
 
 <img src="assets/footer.svg" width="100%" alt="Let's build something that sticks." />

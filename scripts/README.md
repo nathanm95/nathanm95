@@ -24,3 +24,15 @@ preview GIFs into its store banner and re-encodes the result with ffmpeg so it s
 Copy them in without the `_720` suffix. Black Parade doesn't animate, so its card is its store
 `banner_720x320.png`, copied as `black-parade.png`. The stills under `assets/dicey/` are copies
 of Dicey Depths' `store/screenshots/emery/` PNGs.
+
+The Flood Control and Flood Backups cards in `assets/flood/` are screenshots from a sandbox.
+Before each capture, people's names and anything specific to the org (its own objects, tabs and
+branding) were blurred or hidden in the page itself. The merge example uses test records. Each shot is then framed on the
+profile's navy with a caption, as 1200x760 JPEGs. Retake them the same way: never commit a
+capture that shows real people's data.
+
+The snake in the GitHub activity section is drawn by `.github/workflows/snake.yml`
+([Platane/snk](https://github.com/Platane/snk)) every night and on every push to `main`. It
+publishes `github-snake.svg` and `github-snake-dark.svg` to the `output` branch, which the README
+loads from raw.githubusercontent.com. The snake only eats contributions GitHub counts, so commits
+need an email on the account, and private repos need "Include private contributions" turned on.
