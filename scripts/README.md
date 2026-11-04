@@ -31,6 +31,10 @@ branding) were blurred or hidden in the page itself. The merge example uses test
 profile's navy with a caption, as 1200x760 JPEGs. Retake them the same way: never commit a
 capture that shows real people's data.
 
+`assets/login-frame/showcase.gif` is a copy of `docs/media/showcase.gif` from
+[salesforce-login-frame](https://github.com/nathanm95/salesforce-login-frame), where
+`npm run showcase` films it on a real login page. Copy it again after a new release.
+
 The snake in the GitHub activity section is drawn by `.github/workflows/snake.yml`
 ([Platane/snk](https://github.com/Platane/snk)) every night and on every push to `main`. It
 publishes `github-snake.svg` and `github-snake-dark.svg` to the `output` branch, which the README
