@@ -86,13 +86,32 @@ Two native Salesforce apps I designed and built end to end in Apex and LWC. Both
 
 <sub>Screenshots are from a sandbox. Real names are blurred, and the merge example uses test records.</sub>
 
+### 🎆 Login Frame: open source
+
+**[Login Frame](https://github.com/nathanm95/salesforce-login-frame)** fills the right-hand panel of the Salesforce login page with your own picture, a welcome box and rotating messages. Seasonal themes in pixel art switch themselves on and off by date:
+
+- 🎃 A jack-o'-lantern that lets the bats out
+- 🎆 Fireworks for Bonfire Night and New Year
+- ❄️ Snow you can push around with the mouse
+- ⛄ A snowman counting the sleeps to Christmas
+- 💖 Valentine's hearts
+- 🌍 Still pictures for holidays around the world
+
+Admins set it all up in Setup, with no code to edit. It installs as an unlocked package, and anyone with reduced motion turned on gets no animation.
+
+<p align="center">
+  <a href="https://github.com/nathanm95/salesforce-login-frame"><img src="assets/login-frame/showcase.gif" width="100%" alt="Login Frame on a real Salesforce login page, cycling through Halloween, Bonfire Night, snow, the snowman countdown, New Year, Valentine's Day and the holiday pictures" /></a>
+</p>
+
+➡️ [Install it or read the code](https://github.com/nathanm95/salesforce-login-frame)
+
 <img src="assets/timeline.svg" width="100%" alt="Career timeline: Magna International 2012, University of Greenwich 2015, Harbour Rock Capital 2017 to 2025, Apex Infinity Solutions 2023, The Royal Institution 2026" />
 
 ---
 
 ### 🎲 Fun stuff: Pebble development, 2014 → 2026
 
-Away from Salesforce I write watch apps and games in C for Pebble. I started in 2014 on the original watches and CloudPebble, and I'm still at it on the new Pebble Time 2 and Round 2. I have 19 apps and watchfaces live on the Rebble appstore.
+Away from Salesforce I write watch apps and games in C for Pebble. I started in 2014 on the original watches and CloudPebble, and I'm still at it on the new Pebble Time 2 and Round 2. I have 20 apps and watchfaces live on the Rebble appstore.
 
 <img src="assets/pebble.svg" width="100%" alt="Dicey Depths on a Pebble Time 2, with a Pebble Round 2 cycling through my other apps" />
 
@@ -118,31 +137,34 @@ Away from Salesforce I write watch apps and games in C for Pebble. I started in 
   <a href="https://apps.repebble.com/dicey-depths_63d47f8fc443434eb3970e6f"><img src="assets/showcase/dicey-depths.gif" width="49%" alt="Dicey Depths: Dicey on the game-show stage, with the watches playing through the menus into a fight" /></a>
 </p>
 <p align="center">
+  <a href="https://apps.repebble.com/teletext_d3075d1953054fb7aead2a9b"><img src="assets/showcase/teletext.gif" width="49%" alt="Teletext: page 100 tuning in row by row, with the time as a block-mosaic masthead, and the Holidays page on a Round 2" /></a>
   <a href="https://apps.repebble.com/coin-pusher_67c21c392aeb4a53b3cd7d9b"><img src="assets/showcase/coin-pusher.gif" width="49%" alt="Coin Pusher: coins dropping onto an arcade pusher tray under an LED clock" /></a>
+</p>
+<p align="center">
   <a href="https://apps.repebble.com/slot-machine_6c263719388446b98d2c3da6"><img src="assets/showcase/slot-machine.gif" width="49%" alt="Slot Machine: fruit-machine reels spinning, then landing on the time" /></a>
-</p>
-<p align="center">
   <a href="https://apps.repebble.com/skeleton-watch_c0a92aed06b74f118e6e9885"><img src="assets/showcase/skeleton-watch.gif" width="49%" alt="Skeleton Watch: gold and steel gear trains ticking behind the hands on two round watches" /></a>
+</p>
+<p align="center">
   <a href="https://apps.repebble.com/nasa-picture-of-the-day_0264b1590fd048439e947c1e"><img src="assets/showcase/nasa-potd.gif" width="49%" alt="NASA Picture of the Day: a space photo behind a big clock on a Round 2 and a Time 2" /></a>
-</p>
-<p align="center">
   <a href="https://apps.repebble.com/orbital_ca95ffb257bb4ae484d2de7f"><img src="assets/showcase/orbital.gif" width="49%" alt="Orbital: the planets knocked loose by a shake, gliding back to their real positions" /></a>
+</p>
+<p align="center">
   <a href="https://apps.repebble.com/desk-cat_fd38ddf3974e433a8a1fdec4"><img src="assets/showcase/desk-cat.gif" width="49%" alt="Desk Cat: the cat swats the old minute off the desk, and gets the zoomies at 3am" /></a>
-</p>
-<p align="center">
   <a href="https://apps.repebble.com/lava-lamp_21794a91d4da4b669c2c3239"><img src="assets/showcase/lava-lamp.gif" width="49%" alt="Lava Lamp: lava blobs pouring themselves into the time" /></a>
+</p>
+<p align="center">
   <a href="https://apps.repebble.com/snow_bb08f60115414d268f62841a"><img src="assets/showcase/snow.gif" width="49%" alt="Snow: snow falling and piling up on the digits" /></a>
-</p>
-<p align="center">
   <a href="https://apps.repebble.com/orbi_af0517c065c24fd7b83e9677"><img src="assets/showcase/orbi.gif" width="49%" alt="Orbi: a glossy orb pulling faces, in shades and with heart eyes" /></a>
+</p>
+<p align="center">
   <a href="https://apps.repebble.com/pumpkin-orbi_469bd3411da64a6195abeffb"><img src="assets/showcase/pumpkin-orbi.gif" width="49%" alt="Pumpkin Orbi: two carved jack-o'-lanterns flickering and looking around" /></a>
-</p>
-<p align="center">
   <a href="https://apps.repebble.com/premier-league_58f3c6203e5e4b9da769b4f9"><img src="assets/showcase/premier-league.gif" width="49%" alt="Premier League: club crests over the TV scorebug, each with its own goal sting" /></a>
-  <a href="https://apps.repebble.com/roulette_b89bf994105f420b9c2a611f"><img src="assets/showcase/roulette.gif" width="49%" alt="Roulette: a shake sends the ball round a European wheel on a Pebble Round 2" /></a>
 </p>
 <p align="center">
+  <a href="https://apps.repebble.com/roulette_b89bf994105f420b9c2a611f"><img src="assets/showcase/roulette.gif" width="49%" alt="Roulette: a shake sends the ball round a European wheel on a Pebble Round 2" /></a>
   <a href="https://apps.repebble.com/facilitate-fitness-2_41efeb5b0334485fa47a23e5"><img src="assets/showcase/facilitate-fitness.gif" width="49%" alt="Facilitate Fitness 2: steps against the goal ticking up through the day" /></a>
+</p>
+<p align="center">
   <a href="https://apps.repebble.com/black-parade_73b4a8245cb742ff8c15e860"><img src="assets/showcase/black-parade.png" width="49%" alt="Black Parade: the marching skeleton over a big clock on a Pebble Time 2 and Round 2" /></a>
 </p>
 
@@ -156,6 +178,7 @@ Away from Salesforce I write watch apps and games in C for Pebble. I started in 
 
 **Watchfaces**
 
+- 📺 **[Teletext](https://apps.repebble.com/teletext_d3075d1953054fb7aead2a9b)** brings back page 100. The time is a block-mosaic masthead over a live news headline, the weather and your day as headlines, all built from genuine teletext characters. Shake for page 400: world times and holiday weather under a palm tree.
 - 🪙 **[Coin Pusher](https://apps.repebble.com/coin-pusher_67c21c392aeb4a53b3cd7d9b)** is a seaside-arcade coin pusher, and the LED sign tells the time. Shake to drop coins and nudge the prize over the edge. The tray has real physics: coins only move when something pushes them.
 - 🎰 **[Slot Machine](https://apps.repebble.com/slot-machine_6c263719388446b98d2c3da6)** is a fruit machine whose four reels show the time. Shake to spin for cherries, bells and the 7777 jackpot, across ten painted cabinets.
 - ⚙️ **[Skeleton Watch](https://apps.repebble.com/skeleton-watch_c0a92aed06b74f118e6e9885)** lets you see through the dial into a mechanical movement. Flick your wrist and the balance swings, the escape wheel jumps and the whole gear train ticks behind the hands.
